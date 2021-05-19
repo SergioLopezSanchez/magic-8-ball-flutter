@@ -42,7 +42,7 @@ class _BallState extends State<Ball> {
               onPressed: () {
                 setState(() {
                   ball = Random().nextInt(5) + 1;
-                  print('I got clicked $ball');
+                  //print('I got clicked $ball');
                 });
               },
               child: Image.asset('images/ball$ball.png'),
